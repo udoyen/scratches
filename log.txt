@@ -1,0 +1,4 @@
+2020-06-04 21:04:59,661 Worker-9 DEBUG [com.test.bs.engine.Action                       ] Choose engine based on parameters: jobid='1A23456789', jobcode=null
+     2020-06-04 21:04:59,662 Worker-9 DEBUG [com.test.bs.engine.Action                        ] Performing existence check for object_id='1AE1C4321' using sql: select first_name from employees where employee_id=?
+     2020-06-04 21:04:59,662 Worker-9 DEBUG [com.sql.ConnectionProviderJBoss            ] --> Using DB connection from pool java:jboss/datasources: [#21837933]
+     2020-06-04 21:04:59,665 Worker-9 DEBUG [com.sql.ConnectionProviderJBoss              ] <-- Connection [#21837933] returned to DB pool. Statement=[closed]. ResultSet=[closed].

@@ -1,0 +1,25 @@
+project  ~/Documents/freecodecamp/python/project
+  .pytest_cache
+  .vscode
+  arithmetic-arranger
+  boilerplate-budget-app
+    .idea
+    venv
+    .replit
+    budget.py
+    main.py
+    README.md
+    test_module.py
+  boilerplate-time-calculator-2
+  venv
+External Libraries
+Scratches and Consoles
+  Scratches
+    change.txt
+    log.txt
+    sample.txt
+    scratch.py
+    scratch2.py
+    scratch_1.py
+    scratch_2.py
+    scratch_3.py

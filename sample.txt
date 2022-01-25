@@ -1,0 +1,7 @@
+'Balanced Quantum Classical Evolutionary Algorithm(BQCEA)\n\nMuhammad Shahid, Hasan Mujtaba,
+Muhammad Asim, Omer Beg\n\nAbstract\nWith advancement in Quantum computing, classical
+algorithms are adapted and integrated\nwith Quantum properties such as qubit representation
+and entanglement', ' Although these\nproperties perform better however pre-mature
+convergence is the main issue in Quantum\nEvolutionary Algorithms(QEA) because QEA uses only
+the best individual to update quan-\ntum population', ' In this paper, we introduced a new
+way to update the quantum population\nof QEA to avoid premature convergence'
