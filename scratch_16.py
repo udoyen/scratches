@@ -3,12 +3,19 @@ def pattern(n):
     trays = "()"
     stage_check = n
     for i in range(n):
-        starter = ""
+        # starter = ""
         if stage_check == n:
-            for j in range(stage_check):
-                starter += '('
-            for k in range(stage_check):
-                starter += ')'
+            # for j in range(stage_check):
+            #     starter += '('
+            starter_1 = ""
+            y = [(lambda start: start + '(')(starter_1) for j in range(stage_check)]
+            starter_1 = starter_1.join(y)
+            # for k in range(stage_check):
+            #     starter += ')'
+            starter_2 = ""
+            z = [(lambda start: start + ')')(starter_2) for k in range(stage_check)]
+            starter_2 = starter_2.join(z)
+            starter = starter_1 + starter_2
             ans.append(starter)
             stage_check -= 1
         if stage_check < n and not stage_check <= 1:
